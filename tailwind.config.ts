@@ -62,11 +62,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        bmw: {
+          blue: "#1C69D4",
+          "dark-gray": "#1A1F2C",
+          silver: "#8E9196",
+          "light-blue": "#D3E4FD",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        sans: ["Open Sans", "system-ui", "sans-serif"],
+        heading: ["Montserrat", "system-ui", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
@@ -76,16 +86,6 @@ export default {
           to: {
             height: "var(--radix-accordion-content-height)",
           },
-          bmw: {
-            blue: "#1C69D4",
-            "dark-gray": "#1A1F2C",
-            silver: "#8E9196",
-            "light-blue": "#D3E4FD",
-          },
-        },
-        fontFamily: {
-          sans: ["Open Sans", "system-ui", "sans-serif"],
-          heading: ["Montserrat", "system-ui", "sans-serif"],
         },
         "accordion-up": {
           from: {
