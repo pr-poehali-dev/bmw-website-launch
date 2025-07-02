@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { BMWHistory } from "@/components/BMWHistory";
+import { ModelsShowcase } from "@/components/ModelsShowcase";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <Header />
       <Hero />
       <BMWHistory />
+      <ModelsShowcase />
     </div>
   );
 };
